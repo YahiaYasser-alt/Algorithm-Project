@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        DominoTiling.Cell t1_m1 = new DominoTiling.Cell(0, 0);
+        DominoTiling.Cell t1_m2 = new DominoTiling.Cell(0, 1);
+        DominoTiling.printResult(2, t1_m1, t1_m2, DominoTiling.tileDominoes(2, t1_m1, t1_m2));
+
+        DominoTiling.Cell t2_m1 = new DominoTiling.Cell(0, 0);
+        DominoTiling.Cell t2_m2 = new DominoTiling.Cell(3, 3);
+        DominoTiling.printResult(4, t2_m1, t2_m2, DominoTiling.tileDominoes(4, t2_m1, t2_m2));
+
+        DominoTiling.Cell t3_m1 = new DominoTiling.Cell(0, 0);
+        DominoTiling.Cell t3_m2 = new DominoTiling.Cell(3, 2);
+        DominoTiling.printResult(4, t3_m1, t3_m2, DominoTiling.tileDominoes(4, t3_m1, t3_m2));
+
+        DominoTiling.Cell t4_m1 = new DominoTiling.Cell(0, 0);
+        DominoTiling.Cell t4_m2 = new DominoTiling.Cell(7, 6);
+        DominoTiling.printResult(8, t4_m1, t4_m2, DominoTiling.tileDominoes(8, t4_m1, t4_m2));
+    }
+}
